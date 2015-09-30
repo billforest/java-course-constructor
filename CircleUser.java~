@@ -1,0 +1,20 @@
+/*
+ * Project: CircleUser.java
+ * Description: Playing with the circle object.
+ * Name: Jaehyung Lim
+ * Date: Sept 20, 2015
+ */
+
+public class CircleUser {
+  
+  public static void main( String[] args ) {
+    
+    Circle c1 = new Circle();
+    Circle c2 = new Circle(5);
+    
+    c1.setRadius( 10 );
+    
+    System.out.println( "Circle 1's radius is: " + c1.getRadius() );
+  } // end main method
+  
+} // end class
